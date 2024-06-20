@@ -1,0 +1,108 @@
+.chat-box {
+  position: fixed;
+  z-index: 9999;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+#toggle {
+  -webkit-appearance: none;
+  display: none; 
+}
+
+.tog-btn {
+  z-index: 999;
+  width: 43px;
+  height: 43px;
+  background-color: #733646;
+  box-shadow: 3px 3px 10px #00000033, -3px -3px 5px #00000033;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0;
+  transition: transform 0.4s ease;
+}
+
+.tog-btn svg {
+  transition: transform 0.4s ease;
+}
+
+#toggle:checked + .tog-btn {
+  transform: rotate(90deg);
+  background-color: #ff3d71;
+}
+
+#toggle:checked + .tog-btn svg {
+  transform: rotate(45deg);
+}
+
+.nav-lists {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+  transform: translateY(0%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#toggle:checked ~ .nav-lists {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+.chat-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 43px;
+  height: 43px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.chat-btn:hover {
+  background-color: #35353529;
+}
+
+.whatsapp-btn {
+  border: none;
+  background-color: #25D366;
+  box-shadow: 3px 3px 10px #00000033, -3px -3px 5px #00000033;
+}
+
+.whatsapp-btn:hover {
+  background-color: #20B358;
+}
+
+.call-btn {
+  border: none;
+  color: #fff;
+  background-color: #34B7F1;
+  box-shadow: 3px 3px 10px #00000033, -3px -3px 5px #00000033;
+}
+
+.call-btn:hover {
+  background-color: #28A1D7;
+}
+
+@media screen and (max-width: 768px) {
+  .chat-box {
+    bottom: 70px;
+    left: 10px;
+  }
+}
+

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Cooper Black";
+  src: url("./fonts/cooper-black.otf") format("opentype");
+}
+
+.nav {
+  background-color: #733646!important;
+  font-family: "Cooper Black", sans-serif;
+  vertical-align: middle;
+}
+
+.active {
+  font-weight: bold;
+  color: #733646 !important;
+  background-color: #fbdf16 !important;
+  padding: 1px;
+  border-radius: 20px;
+  transition: transform 0.3s ease; 
+  transform: translateX(0); 
+}
+
+.nav-link:not(.active) {
+  opacity: 0.8;
+  color: #ffffff !important;
+  transition: transform 0.3s ease;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+.megha-logo {
+  font-family: "Cooper Black", sans-serif;
+}
+
+.meghaa {
+  color: #fbdf16;
+  font-family: "Cooper Black", sans-serif;
+}
+
+#wave {
+  display: block;
+  margin-top: -20px;
+}
+
+@media (max-width: 991.98px) {
+  .me-end {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .megha-logo {
+    margin: auto; 
+  }
+}

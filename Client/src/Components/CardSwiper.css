@@ -1,0 +1,28 @@
+.cardSwiper {
+    width: 240px;
+    height: 320px;
+  }
+
+  .swiper-box{
+    width: 100%;
+  }
+  
+  .swiper-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .swiper-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the image covers the entire SwiperSlide */
+  }
+  
+  .swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+  }

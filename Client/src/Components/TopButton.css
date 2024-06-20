@@ -1,0 +1,42 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: opacity 0.3s;
+}
+
+.scroll-to-top.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+}
+
+.scroll-to-top button {
+  padding: 15px;
+  background-color: #733646;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: grid;
+  place-items: center;
+  box-shadow: 3px 3px 10px #00000033, -3px -3px 5px #a86b7c45;
+  border-radius: 50%;
+}
+
+.scroll-to-top button:hover {
+  background-color: #4d232e; /* Example background color on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .scroll-to-top {
+    bottom: 70px;
+    right: 10px;
+  }
+  
+}

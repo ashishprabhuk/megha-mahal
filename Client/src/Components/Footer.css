@@ -1,0 +1,11 @@
+#footer-box {
+    padding: 5px;
+    background: linear-gradient(to top, #733646,  #733646,  #733646, #814641) !important;
+}
+
+  @media (max-width: 991.98px) {
+    .copyright{
+        margin-bottom: 40%;
+    }
+  }
+  

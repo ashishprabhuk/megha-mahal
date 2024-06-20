@@ -1,0 +1,39 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 12px !important;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px !important;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: 12px !important;
+}
+
+.carousel-slide, .mySwiper, .swiper-slide-next, .swiper-slide-right {
+  border-radius: 12px !important;
+}
+
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.carousel-box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff3d8;
+  padding: 20px;
+}

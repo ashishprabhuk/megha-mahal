@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2b2930;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "Cooper Black";
+    src: url("/fonts/cooper-black.otf") format('truetype');
+  }

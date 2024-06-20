@@ -1,0 +1,24 @@
+.vert-box {
+  padding: 2px;
+  position: fixed;
+  top: 38%;
+  right: 0;
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: bottom right; /* Set the origin point for rotation */
+  z-index: 1000;
+  background-color: #733646;
+  color: #fff;
+  box-shadow: #09090967 0px 0px 10px;
+  border-radius: 10px 10px 0px 0px;
+  white-space: nowrap; /* Added to prevent text from wrapping */
+}
+
+.blink {
+  padding: 12px;
+  text-decoration: none;
+  color: #ffed62;
+  text-align: center;
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  animation: blink-animation 1s steps(5, start) infinite;
+}
