@@ -12,7 +12,7 @@ const ChatButton = () => {
     setIsChecked(!isChecked);
   };
 
-  const phoneNumber = '918300803055';  // Replace with your phone number
+  const phoneNumber = '919486363226';
   const whatsappMessage = 'Hello! I would like to get in touch regarding Meghaa Mahal.';
 
   return (
