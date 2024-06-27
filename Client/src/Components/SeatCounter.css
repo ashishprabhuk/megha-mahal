@@ -1,0 +1,53 @@
+.seat-counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seat-counter-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: #733646;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #1010101a;
+  color: #fbdf16;
+}
+
+.c-head {
+  font-weight: 800;
+}
+
+.dining-area {
+  background-color: #fbdf16;
+  color: #733646;
+}
+
+.seat-counter-box h3 {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+
+.seat-counter-box p {
+  padding-bottom: 10px;
+}
+
+.btmSeat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.countup {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.seat-counter-box p {
+  margin: 0;
+  font-size: 1em;
+}

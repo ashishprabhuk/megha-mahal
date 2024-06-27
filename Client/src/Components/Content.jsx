@@ -1,5 +1,6 @@
 import React from "react";
 import "./Content.css";
+import SeatCounter from "./SeatCounter";
 
 export default function Content() {
   return (
@@ -17,6 +18,10 @@ export default function Content() {
           an affordable price. Experience the magic of Meghaa Mahal - where
           dreams come true.
         </p>
+        <div className="counter-box">
+          <SeatCounter capacity={150} area={"Seating"} />
+          <SeatCounter capacity={50} area={"Dining"}/>
+        </div>
       </div>
     </div>
   );

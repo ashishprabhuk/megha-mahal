@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import Map from "./Map";
-import { FaPhone } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { IoLocation } from "react-icons/io5";
+import { FaLocationDot } from "react-icons/fa6";
 import "./Contact.css";
 
 export default function Contact() {
@@ -44,13 +44,13 @@ export default function Contact() {
       <div className="contact-box">
         <div className="contact-info">
           <p>
-            <FaPhone className="icon" /><span id="details">Phone:</span> 9486363226, 9488463355
+            <FaPhoneAlt className="icon" /><span id="details">Phone:</span> 9486363226, 9488463355
           </p>
           <p>
             <MdEmail className="icon" /><span id="details">Email:</span> <a id="email-id" href="mailto:hello@meghaamahal.com">hello@meghaamahal.com</a>
           </p>
           <p>
-            <IoLocation className="icon" /><span id="details">Address:</span>28A/1 Suryarajyapuram 2nd East Main road, Sellur, Madurai - 625002
+            <FaLocationDot className="icon" /><span id="details">Address:</span>28A/1 Suryarajyapuram 2nd East Main road, Sellur, Madurai - 625002
           </p>
         </div>
       </div>
